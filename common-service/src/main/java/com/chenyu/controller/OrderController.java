@@ -18,7 +18,7 @@ public class OrderController {
     private OrderMapper orderMapper;
 
 
-    @GetMapping("/{id}")
+    // @GetMapping("/{id}")
     @JacksonInject
     public Order show(@PathVariable long id){
 
