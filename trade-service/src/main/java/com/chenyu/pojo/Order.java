@@ -1,17 +1,17 @@
 package com.chenyu.pojo;
 
 
+import com.baomidou.mybatisplus.annotation.TableName;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import com.baomidou.mybatisplus.annotation.TableName;
 
 /**
  * @Description:
  * @Version: V1.0
  */
-@TableName("sl_trading") // 指定表名
+@TableName("sl_trading") // 交易订单表
 @Data
 @NoArgsConstructor
 @AllArgsConstructor

@@ -13,7 +13,7 @@ import lombok.NoArgsConstructor;
  * @Created by chenyu
  */
 
-@TableName("sl_pay_channel")
+@TableName("sl_pay_channel")  // 支付通道表
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
